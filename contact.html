@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>PCR Official</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+         <nav>
+             <a href="index.html"><img src="images/stema.png"></a>
+             <div class="nav-links" id="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu"></i>
+             <ul>
+                <li><a href="index.html">ACASA</a> </li>
+                 <li><a href="about.html">DESPRE</a> </li>
+                 <li><a href="course.html">INROLARE</a> </li>
+                 <li><a href="blog.html">MEMBRU</a> </li>
+                 <li><a href="contact.html">CONTACT</a> </li>
+                 
+</ul>
+                 </div>
+             <i class="fa fa-bars" onclick="showMenu"></i>
+</nav>  
+            <h1>CONTACTEAZA-NE</h1>
+            
+</section>
+        
+      
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1741.7767938555141!2d22.018287245581647!3d46.917304321054736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sro!2sro!4v1681613316700!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+           <section class="contact-us">
+               <div class="row">
+                   <div class="conctact-col">
+                       <div>
+                         
+                           <span>
+                               <h5>PALATUL "VULTURUL NEGRU".</h5>
+                               <p>Oradea, Judetul Bihor, Romania.</p>
+                           </span>
+                       </div>
+                       
+                           <div>
+                           <span>
+                               <h5>0771037140</h5>
+                               <p>Numarul Oficial De Telefon. Activ 24/24.</p>
+                           </span>
+                       </div>
+                
+                <div>
+                          
+                           <span>
+                               <h5>dumamario3@gmail.com</h5>
+                               <p>Email Oficial.</p>
+                           </span>
+                       </div>
+                   </div>
+                   <div class="conctact-col">
+                       <form action="">
+                           <input type="text" placeholder="Nume Complet" required>
+                           <input type="text" placeholder="Email" required >
+                           <input type="text" placeholder="Subiect" required>
+                           <textarea rows="8" placeholder="Mesaj" required></textarea>
+                           <button type="submit" class="hero-btn red-btn">TRIMITE </button>
+                       </form>
+                   </div>
+            
+               </div>
+        </section>
+        
+            
+            <section class="footer">
+                <h4>Despre Noi</h4>
+
+                <p>Partidul Comunist Român (PCR) a fost un partid politic creat în anul 1921 ca rezultat al scindării ramurii bolșevice de extremă stânga de Partidul Social Democrat Român (istoric). A funcționat în diferite perioade sub diferite denumiri oficiale: între 1921-1945 drept Partidul Comunist din România, și între 1954-1965 drept Partidul Muncitoresc Român. Din 1965 PMR redevine Partidul Comunist Român (PCR)</p>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagra,"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <p>Autor: Mario Duma</p>
+            </section>
+            
+        <script>
+            var navlinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            
+        </script>
+</body>
+</html>
